@@ -1,0 +1,19 @@
+{
+  "id": "teamwork-chat",
+  "name": "Teamwork Chat",
+  "version": "0.1.0",
+  "description": "Teamwork Chat",
+  "main": "index.js",
+  "author": "Lion Krischer <lion.krischer@gmail.com>",
+  "repository": "https://github.com/krischer/franz-recipe-teamwork-chat",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.teamwork.com/chat",
+    "message": "If you chose hosting in the EU, please add the `.eu` part of the URL as well.",
+    "hasNotificationSound": true,
+    "urlInputSuffix": true,
+    "hasIndirectMessages": false,
+    "hasTeamId": true,
+    "urlInputSuffix": ".teamwork.com/chat"
+  }
+}
